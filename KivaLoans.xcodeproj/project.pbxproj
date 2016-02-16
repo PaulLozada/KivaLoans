@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		33184AA31C72F8FF0034F8E5 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33184AA21C72F8FF0034F8E5 /* CustomTableViewCell.swift */; };
 		33184AA51C72F9AD0034F8E5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33184AA41C72F9AD0034F8E5 /* TableViewController.swift */; };
+		33184AA71C72FC2F0034F8E5 /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33184AA61C72FC2F0034F8E5 /* Json.swift */; };
 		33E0A2F91C72F54F002870DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E0A2F81C72F54F002870DC /* AppDelegate.swift */; };
 		33E0A2FE1C72F54F002870DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E0A2FC1C72F54F002870DC /* Main.storyboard */; };
 		33E0A3001C72F54F002870DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33E0A2FF1C72F54F002870DC /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		33184AA21C72F8FF0034F8E5 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		33184AA41C72F9AD0034F8E5 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		33184AA61C72FC2F0034F8E5 /* Json.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Json.swift; sourceTree = "<group>"; };
 		33E0A2F51C72F54F002870DC /* KivaLoans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KivaLoans.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E0A2F81C72F54F002870DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33E0A2FD1C72F54F002870DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			children = (
 				33E0A2F81C72F54F002870DC /* AppDelegate.swift */,
 				33184AA41C72F9AD0034F8E5 /* TableViewController.swift */,
+				33184AA61C72FC2F0034F8E5 /* Json.swift */,
 				33184AA21C72F8FF0034F8E5 /* CustomTableViewCell.swift */,
 				33E0A2FC1C72F54F002870DC /* Main.storyboard */,
 				33E0A2FF1C72F54F002870DC /* Assets.xcassets */,
@@ -337,6 +340,7 @@
 				33184AA31C72F8FF0034F8E5 /* CustomTableViewCell.swift in Sources */,
 				33184AA51C72F9AD0034F8E5 /* TableViewController.swift in Sources */,
 				33E0A2F91C72F54F002870DC /* AppDelegate.swift in Sources */,
+				33184AA71C72FC2F0034F8E5 /* Json.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
