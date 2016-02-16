@@ -19,8 +19,21 @@ class TableViewController: UITableViewController {
         if let jsonResponse = response.data {
             do {
                 let jsonSerialization = try NSJSONSerialization.JSONObjectWithData(jsonResponse, options: .MutableContainers)
-                print(jsonSerialization as! NSDictionary)
+                let loans = jsonSerialization["loans"] as! [AnyObject]
                 
+                for jsonLoans in loans {
+                    let loan = Json()
+                    loan.name = jsonLoans["name"] as! String
+                    let location = jsonLoans["location"] as! [String: AnyObject]
+                    loan.country = location["country"] as! String
+                    loan.use = jsonLoans["use"] as! String
+                    loan.amount = jsonLoans["loan_amount"] as! Int
+                    items.append(loan)
+                    
+                    NSOperationQueue.mainQueue().addOperationWithBlock({ 
+                        self.tableView.reloadData()
+                    })
+                }
                     } catch{ print("Failed")}
             }
         }
@@ -45,15 +58,16 @@ class TableViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 1
+        return items.count
     }
 
  
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! CustomTableViewCell
-
-        // Configure the cell...
-
+        cell.name.text = items[indexPath.row].name
+        cell.country.text = items[indexPath.row].country
+        cell.use.text = items[indexPath.row].use
+        cell.amount.text = "$\(items[indexPath.row].amount)"
         return cell
     }
 
