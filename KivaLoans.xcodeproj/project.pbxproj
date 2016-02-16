@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33184AA31C72F8FF0034F8E5 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33184AA21C72F8FF0034F8E5 /* CustomTableViewCell.swift */; };
+		33184AA51C72F9AD0034F8E5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33184AA41C72F9AD0034F8E5 /* TableViewController.swift */; };
 		33E0A2F91C72F54F002870DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E0A2F81C72F54F002870DC /* AppDelegate.swift */; };
-		33E0A2FB1C72F54F002870DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E0A2FA1C72F54F002870DC /* ViewController.swift */; };
 		33E0A2FE1C72F54F002870DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E0A2FC1C72F54F002870DC /* Main.storyboard */; };
 		33E0A3001C72F54F002870DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33E0A2FF1C72F54F002870DC /* Assets.xcassets */; };
 		33E0A3031C72F54F002870DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E0A3011C72F54F002870DC /* LaunchScreen.storyboard */; };
 		33E0A30E1C72F54F002870DC /* KivaLoansTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E0A30D1C72F54F002870DC /* KivaLoansTests.swift */; };
 		33E0A3191C72F54F002870DC /* KivaLoansUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E0A3181C72F54F002870DC /* KivaLoansUITests.swift */; };
+		FBAFB709A22B05BF6AE94197 /* Pods_KivaLoans.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45F05C562BEF75A1E2EFC79 /* Pods_KivaLoans.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33184AA21C72F8FF0034F8E5 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		33184AA41C72F9AD0034F8E5 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		33E0A2F51C72F54F002870DC /* KivaLoans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KivaLoans.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E0A2F81C72F54F002870DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		33E0A2FA1C72F54F002870DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		33E0A2FD1C72F54F002870DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33E0A2FF1C72F54F002870DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33E0A3021C72F54F002870DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		33E0A3141C72F54F002870DC /* KivaLoansUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KivaLoansUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E0A3181C72F54F002870DC /* KivaLoansUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KivaLoansUITests.swift; sourceTree = "<group>"; };
 		33E0A31A1C72F54F002870DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49BC3956E8F319A6B4D66BEE /* Pods-KivaLoans.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KivaLoans.release.xcconfig"; path = "Pods/Target Support Files/Pods-KivaLoans/Pods-KivaLoans.release.xcconfig"; sourceTree = "<group>"; };
+		7248C1687A093CD572BFFD1E /* Pods-KivaLoans.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KivaLoans.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KivaLoans/Pods-KivaLoans.debug.xcconfig"; sourceTree = "<group>"; };
+		F45F05C562BEF75A1E2EFC79 /* Pods_KivaLoans.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KivaLoans.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBAFB709A22B05BF6AE94197 /* Pods_KivaLoans.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DEDB65B6B7EB2F3B0C4291E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7248C1687A093CD572BFFD1E /* Pods-KivaLoans.debug.xcconfig */,
+				49BC3956E8F319A6B4D66BEE /* Pods-KivaLoans.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		33E0A2EC1C72F54F002870DC = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +97,8 @@
 				33E0A30C1C72F54F002870DC /* KivaLoansTests */,
 				33E0A3171C72F54F002870DC /* KivaLoansUITests */,
 				33E0A2F61C72F54F002870DC /* Products */,
+				1DEDB65B6B7EB2F3B0C4291E /* Pods */,
+				47D75952B5013EDDA2B2B1C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				33E0A2F81C72F54F002870DC /* AppDelegate.swift */,
-				33E0A2FA1C72F54F002870DC /* ViewController.swift */,
+				33184AA41C72F9AD0034F8E5 /* TableViewController.swift */,
+				33184AA21C72F8FF0034F8E5 /* CustomTableViewCell.swift */,
 				33E0A2FC1C72F54F002870DC /* Main.storyboard */,
 				33E0A2FF1C72F54F002870DC /* Assets.xcassets */,
 				33E0A3011C72F54F002870DC /* LaunchScreen.storyboard */,
@@ -125,6 +144,14 @@
 			path = KivaLoansUITests;
 			sourceTree = "<group>";
 		};
+		47D75952B5013EDDA2B2B1C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F45F05C562BEF75A1E2EFC79 /* Pods_KivaLoans.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33E0A31D1C72F54F002870DC /* Build configuration list for PBXNativeTarget "KivaLoans" */;
 			buildPhases = (
+				70E01BFF5ECEEE932152A8C2 /* Check Pods Manifest.lock */,
 				33E0A2F11C72F54F002870DC /* Sources */,
 				33E0A2F21C72F54F002870DC /* Frameworks */,
 				33E0A2F31C72F54F002870DC /* Resources */,
+				C5E29F93BD7843517F120741 /* Embed Pods Frameworks */,
+				9D3C1A68FA0FBCF3184B5D44 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,12 +281,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		70E01BFF5ECEEE932152A8C2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D3C1A68FA0FBCF3184B5D44 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KivaLoans/Pods-KivaLoans-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5E29F93BD7843517F120741 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KivaLoans/Pods-KivaLoans-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		33E0A2F11C72F54F002870DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33E0A2FB1C72F54F002870DC /* ViewController.swift in Sources */,
+				33184AA31C72F8FF0034F8E5 /* CustomTableViewCell.swift in Sources */,
+				33184AA51C72F9AD0034F8E5 /* TableViewController.swift in Sources */,
 				33E0A2F91C72F54F002870DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,9 +478,11 @@
 		};
 		33E0A31E1C72F54F002870DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7248C1687A093CD572BFFD1E /* Pods-KivaLoans.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KivaLoans/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Paul.Lozada.KivaLoans;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,9 +491,11 @@
 		};
 		33E0A31F1C72F54F002870DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49BC3956E8F319A6B4D66BEE /* Pods-KivaLoans.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KivaLoans/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Paul.Lozada.KivaLoans;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,6 +567,7 @@
 				33E0A31F1C72F54F002870DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33E0A3201C72F54F002870DC /* Build configuration list for PBXNativeTarget "KivaLoansTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +576,7 @@
 				33E0A3221C72F54F002870DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33E0A3231C72F54F002870DC /* Build configuration list for PBXNativeTarget "KivaLoansUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +585,7 @@
 				33E0A3251C72F54F002870DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
