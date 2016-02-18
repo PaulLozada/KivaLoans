@@ -1,0 +1,6 @@
+framework module Pods_KivaLoans {
+  umbrella header "Pods-KivaLoans-umbrella.h"
+
+  export *
+  module * { export * }
+}
